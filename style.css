@@ -4,19 +4,19 @@
     box-sizing: border-box;
 }
 
-@font-face {
+/* @font-face {
     font-family: Poppins ;
     src: url(https://fonts.google.com/specimen/Poppins);
 }
-
+ */
 html {
     width: 100%;
     height: 100%;
+    
 }
 
 
-.root {
-
+:root {
 
     --RED: hsl(0, 78%, 62%);
     --Cyan: hsl(180, 62%, 55%);
@@ -28,3 +28,74 @@ html {
     --VeryLightGray: hsl(0, 0%, 98%);
 
 }
+
+body {
+    font-family: Poppins;
+    background-color: var(--VeryLightGray);
+    width:80%;
+    height:100vh;
+    margin: 20px auto;
+    padding:10px;
+    font-size: 0.4rem;
+    display: flex;
+    flex-direction: column;
+    
+   
+}
+
+h1 {
+    white-space: nowrap;
+    margin: 10px auto;
+    text-align: center;
+    width:100%;
+
+   
+    
+    
+    
+}
+
+#headerp{
+    
+    
+}
+header {
+    margin-bottom: 20px;
+    flex-basis: 1;
+    text-align: justify;
+    
+}
+
+div {
+    background-color: white;
+    margin: 23px auto;
+    padding: 15px;
+    box-shadow: 0px 5px 20px var(--GrayishBlue);
+    border-radius: 7px;
+    position: relative;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.super {
+    border-top: 3px solid var(--Cyan);
+}
+.team {
+    border-top: 3px solid var(--RED);
+}
+.karma {
+    border-top: 3px solid var(--Orange);
+}
+.calc {
+    border-top: 3px solid var(--Blue);
+}
+
+svg {
+    transform: scale(55%);
+    align-self: flex-end;
+    
+       
+}
+
+
