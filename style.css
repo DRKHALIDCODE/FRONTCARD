@@ -46,24 +46,34 @@ body {
 h1 {
     white-space: nowrap;
     margin: 10px auto;
-    text-align: center;
-    width:100%;
-
-   
-    
-    
-    
+    text-align: center ;
+    width:100%;    
 }
 
-#headerp{
-    
-    
+
+p {
+    opacity: 0.5;
 }
+
+
+#headerp {
+    margin: 10px auto;
+    text-align: center ;
+
+}
+
 header {
     margin-bottom: 20px;
     flex-basis: 1;
     text-align: justify;
     
+    
+    
+}
+
+.header {
+    font-weight: 400;
+    opacity: 0.6;
 }
 
 div {
@@ -74,6 +84,7 @@ div {
     border-radius: 7px;
     position: relative;
     height: auto;
+    width: 200px;
     display: flex;
     flex-direction: column;
 }
@@ -96,6 +107,47 @@ svg {
     align-self: flex-end;
     
        
+}
+
+@media screen and (min-width:1080px) {
+
+body {
+    width: 100vw;
+    height: 100vh;
+    font-size: 0.5rem;
+
+    
+}
+
+main {
+    display: flex;
+    margin: 10px auto;
+    gap: 20px;
+   
+}
+
+    
+
+div {
+    align-items: center;
+    height: fit-content;
+   
+}
+.super,.calc {
+    align-self: center; 
+}
+
+#headerp {
+    width: 30%;
+    margin: auto;
+    text-wrap: wrap;
+
+}
+
+header {
+    font-size: 0.7rem;
+}
+
 }
 
 
